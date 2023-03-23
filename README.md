@@ -2,7 +2,7 @@
 
 O biscoito da sorte é um projeto na qual o usuário irá abrir um biscoito e ler uma mensagem motivacional para melhorar o seu dia.
 
-![gif biscoito da sorte](https://user-images.githubusercontent.com/122229697/227230751-5d629330-bb4a-4982-bc09-03224f2f021e.gif)
+[Vídeo2 biscoito da sorte.webm](https://user-images.githubusercontent.com/122229697/227233048-0e0c9b6d-745c-4772-bf0d-523028c1583f.webm)
 
 O projeto foi desenvolvido utilizando:
 - HTML
