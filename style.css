@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+    font-size: 1.6rem;
+    
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+main {
+    background: #FFFFFF;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+    border-radius: 0.5rem;
+    padding: 4.8rem 8.4rem 8rem;
+    
+    width: min(42.8rem, 90%);
+    margin-top: -7rem;
+    
+    text-align: center;
+    color: #34355B;
+}
+
+main img {
+    width: 100%;
+}
+
+.screen1 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.9rem;
+    
+    margin-bottom: 1.4rem;
+}
+
+.screen1 p {
+    font-family: 'DM Sans', sans-serif;
+    
+    margin-bottom: 2rem;
+}
+
+.screen1 > button {
+    background: none;
+    border: none;
+}
+
+.screen1 button:hover {
+    cursor: pointer;
+    animation: shake 1.1s;
+}
+
+.screen2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.9rem;
+
+    margin-bottom: 1.7rem;
+}
+
+.screen2 p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+
+    padding: 1rem;
+
+    color: #000000;
+    background: rgb(189, 233, 219);
+
+    transform: translateY(70px);
+    animation: downUp 1s;
+    animation-fill-mode: forwards;
+}
+
+.screen2 img {
+    margin: 6rem auto 6rem;
+}
+
+.screen2 button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    
+    padding: 1.6rem;
+    border: none;
+    border-radius: 0.5rem;
+    
+    background: #FF9500;
+    color: #FFFFFF;
+}
+
+.screen2 button:hover {
+    background: #db8000;
+    cursor: pointer;
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0); }
+    10% { transform: translate(-10px, 0) rotate(-5deg); }
+    20% { transform: translate(10px, 0) rotate(5deg); }
+    30% { transform: translate(-10px, 0) rotate(-5deg); }
+    40% { transform: translate(10px, 0) rotate(5deg); }
+    50% { transform: translate(-10px, 0) rotate(-5deg); }
+    60% { transform: translate(10px, 0) rotate(5deg); }
+    70% { transform: translate(-10px, 0) rotate(-5deg); }
+    80% { transform: translate(10px, 0) rotate(5deg); }
+    90% { transform: translate(-10px, 0) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0); }
+}
+
+@keyframes downUp {
+    0% {
+        transform: translateY(70px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
