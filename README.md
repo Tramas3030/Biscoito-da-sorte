@@ -7,4 +7,5 @@ O biscoito da sorte é um projeto na qual o usuário irá abrir um biscoito e le
 O projeto foi desenvolvido utilizando:
 - HTML
 - CSS
+- JavaScript
 - Figma
